@@ -159,3 +159,29 @@ a.btn {
 .full-width {
     width: 100%;
 }
+
+.footer {
+    padding: 80px 0 0 0;
+    background-color: #333;
+    color: #fff
+}
+
+.social-links {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.social-links a {
+    margin: 0 10px;
+}
+
+.social {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.made-with {
+    padding: 0 30px;
+    color: #555;
+}
