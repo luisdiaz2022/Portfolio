@@ -1,0 +1,14 @@
+{
+    "builds":[
+        {
+            "src":"api/portfolio.py",
+            "use":"@vercel/python"
+        }
+    ],
+    "routes":[
+        {
+            "src":"/(.*)",
+            "dest":"api/portfolio.py"
+        }
+    ]
+}
